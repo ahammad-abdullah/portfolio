@@ -3,21 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Index Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-            background-color: #f4f4f9;
-        }
-        h1 {
-            color: #333;
-        }
-    </style>
+    <title>Abdullah | DFIR & Cybersecurity Intern</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <h1>Welcome</h1>
-    <p>This is a simple index page.</p>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Abdullah.</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#certifications">Certs</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <a href="case-study.html">Blog</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#certifications">Certs</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="case-study.html">Blog</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Hi, I'm Abdullah 👋<br> DFIR Intern @ Byte Capsule IT</h1>
+            <p>Certified Ethical Hacker | Digital Forensics Investigator | Web App Security Tester</p>
+            <a href="#contact" class="btn">Let’s Connect</a>
+            <a href="https://linkedin.com/in/ahammadabdullah/" target="_blank" class="btn btn-outline" style="margin-left: 1rem;">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Passionate about finding vulnerabilities and defending digital frontiers.</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p>I’m currently an intern in the <strong>Digital Forensics & Incident Response (DFIR)</strong> team at <strong>Byte Capsule IT</strong>. I hold a <strong>Certified Ethical Hacker (CEH)</strong> certification from Creative IT Institute, and I’ve completed advanced training in <strong>Bug Hunting & Web App Security Testing</strong> as well as <strong>Digital Forensics & Cyber Crime Investigation</strong> – both from Byte Capsule.</p>
+                <p style="margin-top: 1rem;">I love solving complex problems, analysing malware artefacts, and helping organisations stay secure. When I’m not digging through forensic images, I build websites and contribute to open‑source security tools.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-gray">
+        <div class="container">
+            <div class="section-title">
+                <h2>Work Experience</h2>
+                <p>Where I’ve applied my skills.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>DFIR Intern</h3>
+                    <p style="color:#3b82f6; font-weight:500;">Byte Capsule IT | Present</p>
+                    <p>Assisting in forensic analysis, incident response simulations, and vulnerability assessments.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-code"></i>
+                    <h3>Website Developer</h3>
+                    <p style="color:#3b82f6; font-weight:500;">Georgia Nevison (Real Estate) | Jun 2025 – Aug 2025</p>
+                    <p>Built a responsive real‑estate website with property listings and agent profiles.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Website Developer</h3>
+                    <p style="color:#3b82f6; font-weight:500;">Home Cooks World | Feb 2024 – Apr 2024</p>
+                    <p>Developed a recipe blog platform with custom search and filtering features.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>CTO & Website Developer</h3>
+                    <p style="color:#3b82f6; font-weight:500;">PRAXIS | Jan 2021 – Dec 2022</p>
+                    <p>Led a small team, designed and maintained company websites, and managed IT infrastructure.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications & Training</h2>
+                <p>Formal credentials that back my knowledge.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certified Ethical Hacker (CEH)</h3>
+                    <p>Creative IT Institute</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-bug"></i>
+                    <h3>Professional Bug Hunting</h3>
+                    <p>Advanced Web App Security Testing – Byte Capsule</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-fingerprint"></i>
+                    <h3>Digital Forensics & Cyber Crime Investigation</h3>
+                    <p>Basic to Advanced – Byte Capsule</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-gray">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+                <p>Tools & technologies I use every day.</p>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; max-width: 900px; margin: 0 auto;">
+                <!-- List all skills as badges -->
+                <span class="skill-badge">Linux OS</span>
+                <span class="skill-badge">Windows OS</span>
+                <span class="skill-badge">AmcacheParser</span>
+                <span class="skill-badge">FTK Imager</span>
+                <span class="skill-badge">KAPE</span>
+                <span class="skill-badge">MFT Explorer</span>
+                <span class="skill-badge">SBECmd</span>
+                <span class="skill-badge">PECmd</span>
+                <span class="skill-badge">Hindsight</span>
+                <span class="skill-badge">Nmap</span>
+                <span class="skill-badge">Burpsuite</span>
+                <span class="skill-badge">Hashcat</span>
+                <span class="skill-badge">OWASP Zap</span>
+                <span class="skill-badge">SQL Map</span>
+                <span class="skill-badge">Mimikatz</span>
+                <span class="skill-badge">BloodHound</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Let’s discuss DFIR, security research, or collaboration opportunities.</p>
+            </div>
+            <div style="max-width: 600px; margin: 0 auto;">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width:100%;">Send Message</button>
+                    <p id="formStatus" class="text-center mt-4" style="font-size:0.875rem;"></p>
+                </form>
+                <div class="text-center mt-4">
+                    <p>Or reach me on <a href="https://linkedin.com/in/ahammadabdullah/" target="_blank" style="color:#3b82f6;">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Abdullah – DFIR Intern @ Byte Capsule IT. All rights reserved.</p>
+            <div class="social">
+                <a href="https://linkedin.com/in/ahammadabdullah/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const btn = document.getElementById('mobileMenuBtn');
+        const menu = document.getElementById('mobileMenu');
+        if (btn && menu) {
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('show');
+            });
+        }
+
+        // Contact form demo (no backend)
+        const form = document.getElementById('contactForm');
+        const status = document.getElementById('formStatus');
+        if (form) {
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                status.textContent = 'Thank you! I’ll get back to you soon.';
+                status.style.color = '#10b981';
+                form.reset();
+                setTimeout(() => { status.textContent = ''; }, 3000);
+            });
+        }
+    </script>
 </body>
 </html>
