@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies | Roxo Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Abdullah.</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#experience">Experience</a>
+                <a href="index.html#certifications">Certs</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="case-study.html">Blog</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#experience">Experience</a>
+            <a href="index.html#certifications">Certs</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="case-study.html">Blog</a>
+        </div>
+    </nav>
 
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Case Studies</h2>
+                <p>Insights, stories, and deep dives into our work.</p>
+            </div>
+            <div class="grid-3">
+                <!-- Blog Post 1 -->
+                <div class="blog-card">
+                    <img src="https://placehold.co/600x400/1e293b/white?text=How+We+Scaled+E‑commerce" alt="Blog post 1">
+                    <div class="blog-card-content">
+                        <h3>How We Scaled an E‑commerce Store by 300%</h3>
+                        <p style="color:#6b7280; font-size:0.875rem; margin-bottom:0.5rem;"><i class="far fa-calendar-alt"></i> June 10, 2026</p>
+                        <p>Discover the strategies we used to transform an online store’s performance and revenue.</p>
+                        <a href="posts/cs-one.html" class="btn-outline btn" style="margin-top: 1rem; display: inline-block;">Read More →</a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="blog-card">
+                    <img src="https://placehold.co/600x400/0f172a/white?text=Redesigning+for+Accessibility" alt="Blog post 2">
+                    <div class="blog-card-content">
+                        <h3>Redesigning for Accessibility: A Case Study</h3>
+                        <p style="color:#6b7280; font-size:0.875rem; margin-bottom:0.5rem;"><i class="far fa-calendar-alt"></i> May 28, 2026</p>
+                        <p>How we made a government portal WCAG 2.1 compliant without sacrificing design.</p>
+                        <a href="posts/cs-one.html" class="btn-outline btn" style="margin-top: 1rem; display: inline-block;">Read More →</a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="blog-card">
+                    <img src="https://placehold.co/600x400/334155/white?text=Mobile+App+Launch" alt="Blog post 3">
+                    <div class="blog-card-content">
+                        <h3>From Idea to App Store: A Mobile Journey</h3>
+                        <p style="color:#6b7280; font-size:0.875rem; margin-bottom:0.5rem;"><i class="far fa-calendar-alt"></i> May 15, 2026</p>
+                        <p>Lessons learned while building and launching a cross‑platform app for a startup.</p>
+                        <a href="posts/cs-one.html" class="btn-outline btn" style="margin-top: 1rem; display: inline-block;">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Abdullah – DFIR Intern @ Byte Capsule IT. All rights reserved.</p>
+            <div class="social">
+                <a href="https://linkedin.com/in/ahammadabdullah/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobileMenuBtn');
+        const menu = document.getElementById('mobileMenu');
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
